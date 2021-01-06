@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1024px) {
+  .sectionItem {
+    display: flex;
+
+    .sectionItem__info {
+      display: flex;
+      align-items: center;
+      border-bottom: none;
+
+      img {
+        position: relative;
+        top: initial;
+        left: initial;
+        margin-right: 20px;
+      }
+    }
+  }
+}

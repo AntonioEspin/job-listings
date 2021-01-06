@@ -1,0 +1,84 @@
+.sectionItem {
+  position: relative;
+  width: 85%;
+  max-width: 1000px;
+  height: auto;
+  margin: 60px auto 20px;
+  padding: 26px 15px 10px;
+  background-color: hsl(180, 31%, 100%);
+  border-radius: 5px;
+  border-left: 7px solid hsl(180, 29%, 50%);
+
+  .sectionItem__info {
+    width: 100%;
+    height: auto;
+
+    border-bottom: 1px solid gray;
+
+    img {
+      position: absolute;
+      width: 50px;
+      top: -30px;
+      left: 20px;
+    }
+
+    .sectionItem__info--job {
+      width: 100%;
+
+      p {
+        font-size: 1.5rem;
+        color: hsl(180, 29%, 50%);
+      }
+    }
+
+    .profession {
+      font-size: 1.5rem;
+      font-weight: 700;
+      cursor: pointer;
+
+      &:hover {
+        color: hsl(180, 29%, 50%);
+      }
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      width: 205px;
+      font-size: 1.2rem;
+      color: gray;
+
+      p {
+        margin: 0;
+        padding-right: 10px;
+      }
+    }
+  }
+  .sectionItem__keys {
+    width: 100%;
+    height: auto;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      list-style: none;
+
+      li {
+        margin: 10px 20px 0 0;
+        padding: 10px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: hsl(180, 52%, 96%);
+        color: hsl(180, 29%, 50%);
+        cursor: pointer;
+
+        &:hover {
+          color: hsl(180, 52%, 96%);
+          background-color: hsl(180, 29%, 50%);
+        }
+      }
+    }
+  }
+}
